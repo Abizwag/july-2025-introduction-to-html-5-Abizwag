@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Sample Semantic HTML5 Page</title>
+  
+  <meta name="description" content="A sample HTML5 page demonstrating semantic structure, accessibility, and SEO best practices." />
+  <meta name="keywords" content="HTML5, semantic, accessibility, SEO, example" />
+  <meta name="author" content="Your Name" />
+  
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header>
+    <h1>Welcome to Our Sample Website</h1>
+    <nav aria-label="Main Navigation">
+      <ul>
+        <li><a href="#main-content">Skip to Main Content</a></li>
+        <li><a href="#about">About Us</a></li>
+        <li><a href="#services">Our Services</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="main-content">
+    <section id="about" aria-labelledby="about-heading">
+      <h2 id="about-heading">About Us</h2>
+      <p>We are a company dedicated to delivering quality web solutions.</p>
+    </section>
+
+    <section id="services" aria-labelledby="services-heading">
+      <h2 id="services-heading">Our Services</h2>
+      <article>
+        <h3>Web Design</h3>
+        <p>Creating beautiful and user-friendly websites.</p>
+      </article>
+      <article>
+        <h3>SEO Optimization</h3>
+        <p>Helping your site rank higher in search engines.</p>
+      </article>
+    </section>
+  </main>
+
+  <footer>
+    <section id="contact" aria-labelledby="contact-heading">
+      <h2 id="contact-heading">Contact Us</h2>
+      <address>
+        Email: <a href="mailto:abebeayisan@gmail.com">info@example.com</a><br />
+        Phone: <a href="tel:+1234567890">+251707272832</a><br />
+        Address: Addis Ababa, Ethiopia
+      </address>
+    </section>
+    <p>&copy; 2025 abebeayisan. All rights reserved.</p>
+  </footer>
+</body>
+</html>
